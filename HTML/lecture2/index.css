@@ -1,0 +1,12 @@
+   #para{
+            color: blue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+        }
+        .div1{
+            width: 30%;
+            height: 100px;
+            background-color: aquamarine;
+            color: aliceblue;
+            display: inline-block;
+        }

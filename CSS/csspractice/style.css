@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.outlinecss{
+    border: 2px solid cyan;
+    outline: 10px solid red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.googlefont{
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+}
+
+a {
+  color: red;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: green;
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}

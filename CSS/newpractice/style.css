@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.outlinecss{
+    border: 2px solid cyan;
+    outline: 10px solid red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.googlefont{
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+}
+
+
+
+a {
+  color: red;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: green;
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+p{
+  text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.example-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.image-wrapper {
+    position: relative; /* This is crucial for positioning children */
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: 20px auto; /* Center the image wrapper */
+    border: 1px solid #ddd; /* Optional: for visual separation */
+    overflow: hidden; /* Ensures text doesn't spill if image is smaller */
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block; /* Removes extra space below the image */
+    filter: brightness(0.7); /* Dims the image slightly for better text readability */
+}
+
+.text-overlay {
+    position: absolute;
+    color: white; /* Text color */
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    /* background-color: rgba(0, 0, 0, 0.5); Optional: add a background to the text for more contrast */
+    border-radius: 3px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Adds a subtle shadow for better readability */
+}
+
+.container{
+  position: relative;
+}
+
+.img { 
+  width: 100%;
+  height: 500px;
+  opacity: 0.4;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.topleft {
+  position: absolute;
+  top: 60px;
+  left: 16px;
+  font-size: 18px;
+}
+.topright {
+  position: absolute;
+  top: 60px;
+  right: 16px;
+  font-size: 18px;
+}
+.leftbot{
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+  font-size: 18px;
+}
+.rightbot{
+  position: absolute;
+  bottom: 20px;
+  right: 16px;
+  font-size: 18px;
+}

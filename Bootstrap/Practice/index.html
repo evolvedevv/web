@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+
+  <!-- BS5 Buttons -->
+  <div class="mb-4">
+    <h5>BS5 Buttons</h5>
+    <button class="btn btn-primary">Primary Button</button>
+  </div>
+
+  <!-- BS5 Button Groups -->
+  <div class="mb-4">
+    <h5>BS5 Button Groups</h5>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-secondary">Left</button>
+      <button type="button" class="btn btn-secondary">Middle</button>
+      <button type="button" class="btn btn-secondary">Right</button>
+    </div>
+  </div>
+
+  <!-- BS5 Badges -->
+  <div">
+    <h5>BS5 Badges</h5>
+    <span class="badge bg-success">New</span>
+  </div>
+
+  <!-- BS5 Progress Bars -->
+  <div class="mb-4">
+    <h5>BS5 Progress Bars</h5>
+    <div class="progress">
+      <div class="progress-bar" style="width: 50%;">50%</div>
+    </div>
+  </div>
+
+  <!-- BS5 Spinners -->
+  <div class="mb-4">
+    <h5>BS5 Spinners</h5>
+    <div class="spinner-border text-info" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <!-- BS5 Pagination -->
+  <div class="mb-4">
+    <h5>BS5 Pagination</h5>
+    <nav>
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- BS5 List Groups -->
+  <div class="mb-4">
+    <h5>BS5 List Groups</h5>
+    <ul class="list-group">
+      <li class="list-group-item">Item 1</li>
+      <li class="list-group-item">Item 2</li>
+    </ul>
+  </div>
+
+  <!-- BS5 Cards -->
+  <div class="mb-4">
+    <h5>BS5 Cards</h5>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">Simple card content.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BS5 Dropdowns -->
+  <div class="mb-4">
+    <h5>BS5 Dropdowns</h5>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Option 1</a></li>
+        <li><a class="dropdown-item" href="#">Option 1</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- BS5 Collapse -->
+  <div class="mb-4">
+    <h5>BS5 Collapse</h5>
+    <p><a class="btn btn-info" data-bs-toggle="collapse" href="#collapseExample">Toggle</a></p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        Collapsible content.
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- BS5 Carousel -->
+  <div class="mb-4">
+    <h5>BS5 Carousel</h5>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-block w-100 bg-primary text-white p-5">Slide 1</div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100 bg-secondary text-white p-5">Slide 2</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BS5 Modal -->
+  <div class="mb-4">
+    <h5>BS5 Modal</h5>
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Open Modal</button>
+    <div class="modal fade" id="exampleModal">
+      <div class="modal-dialog">
+        <div class="modal-content p-3">
+          <h5>Modal Content</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BS5 Tooltip -->
+  <div class="mb-4">
+    <h5>BS5 Tooltip</h5>
+    <button class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip text">Hover me</button>
+  </div>
+
+  <!-- BS5 Popover -->
+  <div class="mb-4">
+    <h5>BS5 Popover</h5>
+    <button class="btn btn-warning" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content">Click me</button>
+  </div>
+
+  <!-- BS5 Toast -->
+  <div class="mb-4">
+    <h5>BS5 Toast</h5>
+    <div class="toast show">
+      <div class="toast-body">
+        Hello, I am ggldsnglfdnglk
+      </div>
+    </div>
+  </div>
+
+
+  <!-- BS5 Offcanvas -->
+  <div class="mb-4">
+    <h5>BS5 Offcanvas</h5>
+    <button class="btn btn-danger" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Show Offcanvas</button>
+    <div class="offcanvas offcanvas-start" id="offcanvasExample">
+      <div class="offcanvas-body">Hello from Offcanvas!</div>
+    </div>
+  </div>
+
+  <!-- BS5 Utilities -->
+  <div class="mb-4">
+    <h5>BS5 Utilities</h5>
+    <div class="p-3 bg-light border">Utility  </div>
+  </div>
+
+  <!-- BS5 Dark Mode -->
+  <div class="mb-4 bg-dark text-white p-3">
+    <h5>BS5 Dark Mode</h5>
+    <p>This is a dark themed box.</p>
+  </div>
+
+  <!-- BS5 Flex -->
+  <div class="mb-4">
+    <h5>BS5 Flex</h5>
+    <div class="d-flex justify-content-between bg-light p-2">
+      <div>Left</div>
+      <div>Right</div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+      new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    popoverTriggerList.forEach(function (popoverTriggerEl) {
+      new bootstrap.Popover(popoverTriggerEl)
+    })
+  </script>
+</body>
+</html>

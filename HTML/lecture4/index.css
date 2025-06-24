@@ -1,0 +1,36 @@
+.parent{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
+.child1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+.child2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 232, 127);
+    position: relative;
+    left: 200px;
+
+}
+.child3{
+    width: 100px;
+    height: 100px;
+     position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+.child4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(182, 127, 255);
+}
+.parent2{
+      width: 100%;
+    height: 500px;
+    background-color: rgb(255, 0, 170);
+}

@@ -1,0 +1,16 @@
+.external{
+    background-color: cyan;
+    color: white;
+    display: inline-block;
+        border: 2px 2px 2px 2px;
+        border-radius: 10px;
+        margin: 10px 10px 10px 10px;
+        width: 100%;
+        height: 100px;
+        background-image: ;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
